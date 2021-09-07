@@ -124,6 +124,8 @@ $('.Worksbtn').click(function(event){
       break;
   }
 
+
+
   function worksshow(_pagename){
 
       $('.Worksbtn').removeClass("works"); 
@@ -140,6 +142,52 @@ $('.Worksbtn').click(function(event){
   }
 
 });
+
+
+$('.index-workbtn').click(function(event){
+  switch(event.target.outerText){
+    case 'Illustration':
+      $('.main').fadeOut(600);
+      $('#main-works').fadeOut(600);
+      setTimeout(worksshow('#illustration'), 800);
+      break;
+    case 'Graphic Design':
+      $('.main').fadeOut(600);
+      $('#main-works').fadeOut(600);
+      setTimeout(worksshow('#graphicdesign'), 800);
+      break;
+    case 'UI/UX Design':
+      $('.main').fadeOut(600);
+      $('#main-works').fadeOut(600);
+      setTimeout(worksshow('#uiux'), 800);
+      break;
+    case 'Video Production':
+      $('.main').fadeOut(600);
+      $('#main-works').fadeOut(600);
+      setTimeout(worksshow('#video'), 800);
+      break;
+  }
+
+
+
+  function worksshow(_pagename){
+
+      $('.Worksbtn').removeClass("works"); 
+      $('.index-main').addClass("work"); 
+      $(_pagename).find('#backbtn').addClass('show')
+
+    setTimeout(backbtnshow(_pagename), 600);
+
+    function backbtnshow(_pagename){
+      $(_pagename).fadeIn(600)
+      $(_pagename).addClass('show')
+    }
+
+  }
+
+});
+
+
 
 $('.backbtn').click(function(){
   backtoworks();

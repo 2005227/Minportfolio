@@ -358,7 +358,7 @@ header > ul > li:hover::after {
   color: #c4b1a0;
 }
 
-.main-works ul li a:hover {
+.main-works ul li:hover {
   color: #a80d0d;
 }
 
