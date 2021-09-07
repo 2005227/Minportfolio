@@ -479,6 +479,10 @@ header > ul > li:hover::after {
   left: 400%;
 }
 
+.work-intro-main:nth-of-type(6) {
+  left: 500%;
+}
+
 .work-intro-img {
   width: 100%;
   max-height: 40vh;
@@ -524,6 +528,10 @@ header > ul > li:hover::after {
 
 .work-img:nth-of-type(5) {
   left: 400%;
+}
+
+.work-img:nth-of-type(6) {
+  left: 500%;
 }
 
 .work-img img {
@@ -611,4 +619,16 @@ iframe {
   font-size: 1.8rem;
   font-weight: lighter;
   letter-spacing: 2px;
+}
+
+.work-title{
+  font-size: 1.8rem;
+  display: inline-block;
+  width:auto;
+  letter-spacing: 2px;
+  position:absolute;
+  top:2rem;
+  color:#C4B1A0;
+  font-weight: lighter;
+  left:150px;
 }
