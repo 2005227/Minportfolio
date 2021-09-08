@@ -181,7 +181,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: #e2957b;
-  font-size: 30px;
+  font-size: 25px;
   background: #fff;
   padding: 10px;
   transition: linear 300ms;
@@ -248,7 +248,7 @@
 
 .about-skills .skills .skill:hover ul li {
   color: #8e7e71;
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 4px;
   line-height: 50px;
   transition: ease 300ms;
