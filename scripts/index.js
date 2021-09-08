@@ -1,3 +1,5 @@
+
+
 let nowimg = 1;
 
 $('#about').click(function(){

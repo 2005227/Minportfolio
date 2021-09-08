@@ -392,8 +392,12 @@ header > ul > li:hover::after {
   text-align: center;
   display: none;
   font-size: 2rem;
-  color: #979797;
+  color: #FEFBEE;
   cursor: pointer;
+}
+
+.Worksbtn.color{
+  color:#C4B1A0;
 }
 
 .Worksbtn.works {
