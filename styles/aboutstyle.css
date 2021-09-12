@@ -241,14 +241,14 @@
 
 .about-skills .skills .skill ul li {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 4px;
   line-height: 50px;
 }
 
 .about-skills .skills .skill:hover ul li {
   color: #8e7e71;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 4px;
   line-height: 50px;
   transition: ease 300ms;
